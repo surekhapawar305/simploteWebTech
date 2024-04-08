@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	box-sizing: border-box;
+	outline: none;border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: 2s linear;
+}
+html,body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+}
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.5rem 7%;
+	border-bottom: var(--border);
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	z-index: 1000;
+}
+#navbar .logo{
+	width: 100px;
+	height: auto;
+	
+   display: inline-block;
+	border: none;
+	position: absolute;
+   bottom: 1;
+   left: 2%;
+}
+#navbar .icons{
+	
+	height: 25px;
+	width: 25px;
+	float: right;
+	display: inline;
+   margin-left: 2rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   cursor: pointer;
+   right: 2%;
+   
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+.container{
+	margin: auto;
+	max-width: 1200px;
+	overflow: auto;
+	padding: 0 10px;
+}
+.text-primary{
+	display: inline-block;
+	font-size: 25px;
+	color: #fff;
+	background: #4a4646;	
+	border: none;
+	position: absolute;
+   bottom: 0;
+   left: 5%;
+   padding: 10px; 
+  background-color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  width: 20%;
+  
+	
+}
+
+#navbar{
+	background-color: #fff;
+	color: #000;
+	overflow: auto;
+}
+#navbar a{
+	color: #000;
+}
+#navbar h1{
+	float: left;
+	padding-top: 20px;
+
+}
+#navbar ul{
+	list-style: none;
+	float: right;
+}
+#navbar ul li{
+	float: left;
+}
+#navbar ul li a{
+	display: block;
+	padding: 30px 50px;
+	text-align: center;
+	text-decoration: solid;
+}
+#navbar ul li a:hover{
+	background: #2f2a2a;
+	color: #f7c08f;
+	padding: auto;
+}
+#showcase{
+	background: url('../HotelProject/heroimg.png.jpg')no-repeat center center/cover;
+	height: 650px;
+}
+#showcase .showcase-content{
+	color: #fff;
+	text-align: center;
+	padding-top: 170px;
+	
+}
+#home-info{
+	height: 400px;
+	
+}
+#home-info .info-content{
+	overflow: hidden;
+	float: left;
+	width: 33.3%;
+	padding:50px 20px;
+	text-align: center;
+	background: #b9b6b6 ;
+}
+
+#home-info .info-content p{
+	bottom: 50px;
+}
+#features{
+	height: 400px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 2rem;
+}
+
+.box{
+	float: left;
+	width: 38.3%;
+	padding: 40px 60px;
+	text-align: center;
+	width: fit-content;
+	size: 30px;
+	box-sizing: border-box;
+	min-height: 100%;
+	width: 32%;
+	
+	
+}
+.btn{
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+	background: #333;
+	padding: 2px 15px;
+	border: none;
+}
+
+
+.text{
+	display: inline-block;
+	font-size: 30px;
+	border: none;
+	position: absolute;
+   bottom: 5;
+   left: 5%;
+   padding: 10px; 
+   width: 300%;
+  
+}
+ 
